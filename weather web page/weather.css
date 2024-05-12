@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+</style>
+
+form{
+    height: 20vh;
+    width: 100vw;
+    background:linear-gradient(to right,rgba(255, 255, 255, 0.562),rgba(255, 217, 0, 0.459))
+ 
+   
+
+}
+.input
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+
+   
+    
+    
+    
+    
+}
+.cn{
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 1%;
+    font-size: 40px;
+    padding-top: 2.5%;
+    color: rgba(73, 137, 193, 0.973);
+    
+}
+
+
+
+.condition{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,white,rgba(145, 223, 254, 0.459))
+    
+
+}
+
+#city{
+    width:20%;
+    outline: 0cap;
+    border: 0cap;
+    background: transparent;
+    font-size: 20px;
+    margin-left: 5%;
+    padding-left: 5%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.548) ;
+  
+}
+#but
+{
+    
+    background: transparent;
+    font-size: 20px;
+    margin-left: 1%;
+    opacity: 60%;
+    
+}
+.dt{
+    font-size: 60%;
+    margin-left: 5%;
+
+}
+.info{
+    width: 100vw;
+    height: 100vh;
+}
+
+.condition{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.degree{
+    display: flex;
+    flex-direction: row;
+}
+
+.details
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 200%;
+    width: 100vw;
+    opacity:90% ;
+    
+}
+
+#n{
+    font-size: 300%;
+    border-right: 2px solid black ;
+    padding-right: 12%;
+    padding-bottom: 10%;
+}
+
+.img{
+    padding-left:9%;
+}
+.wc{
+    font-size: 65%;
+    padding-left: 41%
+   
+    
+    
+}
+
+.lastupdate{
+  padding-top: 10%;
+  padding-left: 70%;
+    opacity:90%;
+}
+
