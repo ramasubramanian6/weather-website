@@ -57,6 +57,6 @@ function show(current,weatext,img,dtt,lst11)
     cond.innerText=weatext;
     img1.src=img;
     dt1.innerText="Local Time : "+dtt;
-    lst1.innerText="Last Updated Time : "+lst11;
+    lst1.innerText="last time Naveen Oombunathu  : "+lst11;
     
 }
