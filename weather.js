@@ -44,6 +44,16 @@
 
 })
 
+const city=document.querySelector("#city")
+form.addEventListener("keydown",function(e){
+    if(e.key==="enter)
+       {
+        e.preventDefault()
+       apicall(city)
+        }
+    
+})
+
 
 const degree1 =document.querySelector("#n");
 const cond=document.querySelector(".wc");
