@@ -48,7 +48,7 @@
 
 const city=document.querySelector("#city")
 form.addEventListener("keydown",function(e){
-    if(e.key==="enter)
+    if(e.key==="enter")
        {
         e.preventDefault()
        apicall(city)
