@@ -18,6 +18,8 @@
     try
     {
         const api_url=`https://api.weatherapi.com/v1/current.json?key=db2b95a531e74710988135030241205&q=${city}&aqi=no`;
+       
+
         const api_call=await fetch(api_url);
         const data=await api_call.json()
         const current_temp=data.current.temp_c;
